@@ -1,75 +1,37 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Nunito Sans";
+  box-sizing: border-box;
 }
 
 .welcome-immence {
-  position: absolute;
-  width: 441px;
-  height: 38px;
-  left: 153px;
-  top: 155px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 61px;
-  display: flex;
-  /* immence blue */
+  font-size: 37px;
   color: #0231c8;
 }
 
-.signing-to-continue {
-  position: absolute;
-  width: 373px;
-  height: 28px;
-  left: 153px;
-  top: 208px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 34px;
-  /* grey */
-  color: #797979;
+.left-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left-div .welcome-div {
+  margin-left: -62px;
 }
 
-.login-form {
-  position: absolute;
-  width: 234px;
-  height: 28px;
-  left: 153px;
-  top: 341px;
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 27px;
-  line-height: 37px;
-  align-items: center;
-  /* Label font */
-  color: #647484;
+.signing-to-continue {
+  font-weight: 400;
+  font-size: 21px;
+  color: #797979;
 }
 
 .error {
   color: #ee4444;
 }
 
-.App {
-  background-color: white;
-}
-
-.Auth-form-container {
-  width: 100vw;
-  position: absolute;
-  width: 234px;
-  height: 28px;
-  left: 153px;
-  top: 256px;
-}
-
 .Auth-form {
   width: 420px;
-  padding-top: 30px;
-  padding-bottom: 20px;
   border-radius: 8px;
   background-color: white;
 }
@@ -79,9 +41,6 @@ label {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 37px;
-  display: flex;
-  align-items: center;
   color: #647484;
 }
 
@@ -103,23 +62,22 @@ label {
   width: 20px;
   background: url("../../assets/images/email.svg") center/contain no-repeat;
 }
+.form-group .forgot-password {
+  position: absolute;
+  right: 0px;
+}
 
 .login-footer {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  top: 426px;
-  border-radius: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.login-pattern {
-  position: relative;
-  background: linear-gradient(180deg, rgba(10, 17, 88, 0) -82.5%, #0a1158 117.13%);
+.right-div {
+  background: linear-gradient(180deg, #0a1158 0%, #0a1158 100%);
 }
 
-.login-pattern-img {
-  width: 100%;
+.pattern-img {
+  margin-left: -100px;
+  height: 629px;
 }/*# sourceMappingURL=Login.css.map */

@@ -1,90 +1,56 @@
 * {
   margin: 0;
   padding: 0;
-
-  font-family: 'Nunito Sans';
+  box-sizing: border-box;
 }
 
 $error-color: #ee4444;
+$theme-color: #0231c8;
 
 .welcome-immence {
-  position: absolute;
-  width: 441px;
-  height: 38px;
-  left: 153px;
-  top: 155px;
+  //   position: relative;
+  //   width: 100%;
+  //   height: 38px;
+  //   left: 153px;
+  //   top: 50px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
-  line-height: 61px;
+  font-size: 37px;
+  //   line-height: 61px;
+  //   display: flex;
+  color: $theme-color;
+}
+
+.left-div {
   display: flex;
-  //   align-items: center;
-
-  /* immence blue */
-
-  color: #0231c8;
+  flex-direction: column;
+  align-items: center;
+  .welcome-div {
+    margin-left: -62px;
+  }
 }
 
 .signing-to-continue {
-  position: absolute;
-  width: 373px;
-  height: 28px;
-  left: 153px;
-  top: 208px;
-
-  font-style: normal;
+  //   position: absolute;
+  //   width: 373px;
+  //   height: 28px;
+  //   left: 153px;
+  //   top: 95px;
+  //   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 34px;
-  //   display: flex;
-  //   align-items: center;
-
-  /* grey */
-
+  font-size: 21px;
+  //   line-height: 34px;
   color: #797979;
-}
-
-.login-form {
-  position: absolute;
-  width: 234px;
-  height: 28px;
-  left: 153px;
-  top: 341px;
-
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 27px;
-  line-height: 37px;
-  //   display: flex;
-  align-items: center;
-
-  /* Label font */
-
-  color: #647484;
 }
 
 .error {
   color: $error-color;
 }
 
-.App {
-  background-color: white;
-}
-
-.Auth-form-container {
-  width: 100vw;
-  position: absolute;
-  width: 234px;
-  height: 28px;
-  left: 153px;
-  top: 256px;
-}
-
 .Auth-form {
   width: 420px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  //   padding-top: 30px;
+  //   padding-bottom: 20px;
   border-radius: 8px;
   background-color: white;
 }
@@ -94,9 +60,9 @@ label {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 37px;
-  display: flex;
-  align-items: center;
+  //   line-height: 37px;
+  //   display: flex;
+  //   align-items: center;
   color: #647484;
 }
 
@@ -118,32 +84,33 @@ label {
     // z-index: 11;
     background: url('../../assets/images/email.svg') center / contain no-repeat;
   }
+  .forgot-password {
+    position: absolute;
+    right: 0px;
+  }
 }
 .login-footer {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  top: 426px;
-  border-radius: 0px;
+  //   position: relative;
+  //   height: 100%;
+  //   width: 100%;
+  //   top: 300px;
+  //   border-radius: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.login-pattern {
-  position: relative;
-  //   width: 653px;
-  //   height: 66px;
-  //   left: 153px;
-  //   top: 384px;
-
-  background: linear-gradient(
-    180deg,
-    rgba(10, 17, 88, 0) -82.5%,
-    #0a1158 117.13%
-  );
+.right-div {
+  //   position: relative;
+  background: linear-gradient(180deg, #0a1158 0%, #0a1158 100%);
+  //   background: #0231c8;
+  //   width: 100%;
+  //   height: 100%;
 }
-
-.login-pattern-img {
-  width: 100%;
+.pattern-img {
+  //   height: 100%;
+  //   margin-top: -30px;
+  margin-left: -100px;
+  height: 629px;
+  //   object-fit: cover;
 }
