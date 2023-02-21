@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans";
+}
+
+.welcome-immence {
+  position: absolute;
+  width: 441px;
+  height: 38px;
+  left: 153px;
+  top: 155px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 61px;
+  display: flex;
+  /* immence blue */
+  color: #0231c8;
+}
+
+.signing-to-continue {
+  position: absolute;
+  width: 373px;
+  height: 28px;
+  left: 153px;
+  top: 208px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  /* grey */
+  color: #797979;
+}
+
+.login-form {
+  position: absolute;
+  width: 234px;
+  height: 28px;
+  left: 153px;
+  top: 341px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 37px;
+  align-items: center;
+  /* Label font */
+  color: #647484;
+}
+
+.error {
+  color: #ee4444;
+}
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  width: 100vw;
+  position: absolute;
+  width: 234px;
+  height: 28px;
+  left: 153px;
+  top: 256px;
+}
+
+.Auth-form {
+  width: 420px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+label {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  color: #647484;
+}
+
+.login-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  position: relative;
+}
+.form-group ::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  bottom: 0;
+  width: 20px;
+  background: url("../../assets/images/email.svg") center/contain no-repeat;
+}
+
+.login-footer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 426px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-pattern {
+  position: relative;
+  background: linear-gradient(180deg, rgba(10, 17, 88, 0) -82.5%, #0a1158 117.13%);
+}
+
+.login-pattern-img {
+  width: 100%;
+}/*# sourceMappingURL=Login.css.map */
